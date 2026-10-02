@@ -12,7 +12,7 @@ on:
 
 jobs:
   dependency-track:
-    uses: testAhmal-devsecops-lab/devsecops-orchestrator/.github/workflows/dtrack.yml@main
+    uses: testAhmal-devsecops-lab/devsecops-orchestrator/.github/workflows/reusable-dtrack.yml@main
     secrets: inherit
     permissions:
       contents: read
